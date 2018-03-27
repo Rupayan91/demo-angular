@@ -1,10 +1,23 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'app';
+export class AppComponent implements OnInit {
+
+    constructor(private route: Router) {    }
+
+    // Call ngOnInit just after constructor got loaded
+    ngOnInit() {
+        let isLogin = localStorage.getItem('isLoggedIn') ? localStorage.getItem('isLoggedIn') : 'No';
+        if(isLogin == 'Yes') {
+            this.route.navigate(['home']);
+        } else {
+            this.route.navigate(['login']);
+        }
+    }
+
 }

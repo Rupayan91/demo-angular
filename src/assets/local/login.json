@@ -1,0 +1,16 @@
+{
+    "credentials" : [
+        {
+            "email": "test@test.com",
+            "password": "123456"
+        },
+        {
+            "email": "abc@gmail.com",
+            "password": "121212"
+        },
+        {
+            "email": "xyz@yahoo.com",
+            "password": "454545"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+<div class="loginBody">
+    <h1>
+        Please Login
+    </h1>
+    <div class="loginContainer">
+        <form #formData="ngForm" (ngSubmit)="onSubmit(formData)">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input  type="text"
+                        class="form-control"
+                        id="email"
+                        name="email"
+                        #loginemail="ngModel"
+                        pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"
+                        ngModel
+                        required
+                >
+            </div>
+            <div *ngIf="loginemail.touched">
+                <div *ngIf="loginemail.errors?.required" class="alert alert-danger">
+                     Email is Required
+                </div>
+                <div *ngIf="loginemail.errors?.pattern" class="alert alert-danger">
+                     Invalid email id
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input  type="password"
+                        class="form-control"
+                        id="password"
+                        name="password"
+                        pattern="[0-9]"
+                        #loginPassword="ngModel"
+                        minlength="6"
+                        ngModel
+                        required
+                >
+            </div>
+            <div *ngIf="loginPassword.touched">
+                <div *ngIf="loginPassword.errors?.required" class="alert alert-danger">
+                     Password is Required
+                </div>
+                <div *ngIf="loginPassword.errors?.pattern && loginPassword.errors?.minlength" class="alert alert-danger">
+                     Password contains minimum 6 characters.
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+    </div>
+</div>
+<pre>{{formData.value | json}}</pre>
