@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
     ngOnInit() {
         let isLogin = localStorage.getItem('isLoggedIn') ? localStorage.getItem('isLoggedIn') : 'No';
         if(isLogin == 'Yes') {
-            this.route.navigate(['home']);
+            this.route.navigate(['auth']);
         } else {
             this.route.navigate(['login']);
         }
