@@ -6,10 +6,12 @@ import { appRoutes } from './app.router';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpAdapterService } from './services/adapter/httpAdapter';
 import { AuthGuardService } from './services/guards/authguard.service';
+import { SideMenuComponent } from './components/sidemenu/sidemenu.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SideMenuComponent
   ],
   imports: [
     BrowserModule,

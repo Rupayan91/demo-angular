@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { HomeComponent } from './home.component';
-import { homeRoutes } from './home.router';
+import { PreAuthComponent } from './pre-auth.component';
+import { preAuthRoutes } from './pre-auth.router';
 
 @NgModule({
-    declarations: [HomeComponent],
+    declarations: [PreAuthComponent],
     imports:[
         CommonModule,
         //SideMenuModule,
-        RouterModule.forChild(homeRoutes)
+        RouterModule.forChild(preAuthRoutes)
     ],
     providers: []
 })
 
-export class HomeModule {}
+export class PreAuthModule {}

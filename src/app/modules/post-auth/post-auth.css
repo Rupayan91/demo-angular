@@ -1,0 +1,35 @@
+.itemContainer {
+    width: 200px;
+    height: 100px;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    color: #FFEFD5;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.itemContainer.home {
+    background-color: #1E90FF;
+}
+.itemContainer.profile {
+    background-color: #D2691E ;
+}
+.itemContainer.list {
+    background-color: #DAA520;
+}
+.itemContainer.cont {
+    background-color: #FA8072;
+}
+.itemContainer:hover {
+    background-color: #2F4F4F ;
+}
+
+.innerContainer {
+    position: absolute;
+    margin-top: 200px;
+    width: 70%;
+    height: auto;
+}

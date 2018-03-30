@@ -8,20 +8,7 @@ import { SideMenuComponent } from '../../../components/sidemenu/sidemenu.compone
 
 export class HomeComponent {
 
-    itemLists: Array<Object> = [
-        {
-            'name': "Home",
-            'clsName': "home"
-        },
-        {
-            'name': "List",
-            'clsName': "list"
-        },
-        {
-            'name': "Contact",
-            'clsName': "cont"
-        }
-    ]
+
 
     //itemLists: Array<Number> = [10, 12, 16];
 

@@ -8,7 +8,8 @@
     width: 200px;
     height: 100%;
     background: #00CED1;
-    left: 200px;
+    left: -200px;
+    transition: all 500ms linear;
 }
 #sidemenu.active {
     left: 0px;
@@ -21,8 +22,9 @@
 }
 #sidemenu .toggle-btn {
     position: absolute;
-    left: 230px;
+    left: 200px;
     top: 20px;
+    cursor: pointer;
 }
 #sidemenu .toggle-btn span {
     display: block;

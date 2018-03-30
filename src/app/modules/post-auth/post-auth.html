@@ -1,3 +1,9 @@
-<div class='child_container'>
+<div class="upperContainer">
+    <div *ngFor="let item of itemLists">
+        <!-- <button type="button" class="btn btn-success" (click)="openProfile()">Profile</button> -->
+        <div class="itemContainer {{item.clsName}}" (click)="routePage(item.clsName)">{{item.name}}</div>
+    </div>
+</div>
+<div class='innerContainer'>
     <router-outlet></router-outlet>
 </div>
