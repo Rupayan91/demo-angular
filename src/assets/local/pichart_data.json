@@ -1,0 +1,27 @@
+{
+    "chatData": {
+        "data": [
+                    {
+                        "name": "India",
+                        "value": 100
+                    },
+                    {
+                        "name": "USA",
+                        "value": 75
+                    },
+                    {
+                        "name": "UK",
+                        "value": 80
+                    },
+                    {
+                        "name": "Australia",
+                        "value": 55
+                    },
+                    {
+                        "name": "Canada",
+                        "value": 65
+                   }
+        ],
+        "color": ["#FF0000", "#FFFF00", "#00FF7F", "#FA8072", "#0000FF"]
+    }
+}

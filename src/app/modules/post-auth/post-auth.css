@@ -27,9 +27,16 @@
     background-color: #2F4F4F ;
 }
 
+.upperContainer {
+    margin-left: 10%;
+    position: relative;
+}
+
 .innerContainer {
-    position: absolute;
-    margin-top: 200px;
+    position: fixed;
+    margin-top: 150px;
     width: 70%;
-    height: auto;
+    height: 50%;
+    margin-left: 10%;
+    
 }

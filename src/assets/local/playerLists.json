@@ -1,0 +1,32 @@
+{
+    "players": [
+        {
+            "name": "Christiano Ronaldo",
+            "country": "Portugal",
+            "profession": "Football",
+            "image": "cris.jpg",
+            "icon": "portugal.png"
+        },
+        {
+            "name": "Roger Federer",
+            "country": "Switzerland",
+            "profession": "Tennis",
+            "image": "roger.jpg",
+            "icon": "switzerland.png"
+        },
+        {
+            "name": "Lionel Messi",
+            "country": "Argentina",
+            "profession": "Football",
+            "image": "messi.jpg",
+            "icon": "argentina.png"
+        },
+        {
+            "name": "Sourav Ganguly",
+            "country": "India",
+            "profession": "Cricket",
+            "image": "sourav.jpg",
+            "icon": "india.png"
+        }
+    ]
+}

@@ -19,6 +19,7 @@
     list-style: none;
     padding: 15px 10px;
     border-bottom: 1px solid rgba(100,100,100,0.3);
+    font-weight: bold;
 }
 #sidemenu .toggle-btn {
     position: absolute;
@@ -32,4 +33,20 @@
     height: 5px;
     margin: 3px;
     background: #00CED1;
+}
+
+.upperCont {
+    height: 25%;
+    background: #2F4F4F;
+    padding: 10px;
+}
+.avatar {
+    height: 100px;
+    margin-bottom: 10px;
+}
+.myText {
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+
 }

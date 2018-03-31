@@ -1,0 +1,37 @@
+{
+    "profileData": [
+        {
+            "email": "test@test.com",
+            "details": [
+                {
+                    "firstName": "Rupayan",
+                    "lastName": "Dey",
+                    "mobile": 1122334455,
+                    "profession": "Software Engineer"
+                }
+            ]
+        },
+        {
+            "email": "abc@gmail.com",
+            "details": [
+                {
+                    "firstName": "Christiano",
+                    "lastName": "Ronaldo",
+                    "mobile": 1234567890,
+                    "profession": "Footballer"
+                }
+            ]
+        }, 
+        {
+            "email": "xyz@yahoo.com",
+            "details": [
+                {
+                    "firstName": "Roger",
+                    "lastName": "Federer",
+                    "mobile": 9876543210, 
+                    "profession": "Tennis Player"
+                }
+            ]
+        }
+    ]
+}

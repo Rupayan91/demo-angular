@@ -6,8 +6,9 @@ export const authRoutes: Routes = [
         path: '', component: PostAuthComponent,
         children: [
             { path: '', redirectTo: 'home', pathMatch: 'full' },
-            { path: 'home', loadChildren: './home/home.module#HomeModule' }
-            { path: 'profile', loadChildren: './profile/profile.module#ProfileModule' }
+            { path: 'home', loadChildren: './home/home.module#HomeModule' },
+            { path: 'profile', loadChildren: './profile/profile.module#ProfileModule' },
+            { path: 'list', loadChildren: './lists/lists.module#PlayerListsModule' }
         ]
     }
     //{path:'home',  loadChildren: './home/home.module#HomeModule'}
